@@ -8,12 +8,10 @@ import pandas as pd
 from aiohttp import ClientError
 
 from scr.config import (
-    SAMPLE_SPREADSHEET_ID, UPDATE_INTERVAL_MINUTES,
-    TECH_PC_COMPONENTS_MM, KLICK_MARKET_MM, BY_MARKET_MM,
-    E_SHOPPER_MM, SSMART_SHOP_MM, ORIGINAL_MARKET_SHOP_MM,
-    SQLITE_DB_NAME
+    SAMPLE_SPREADSHEET_ID, TECH_PC_COMPONENTS_MM, KLICK_MARKET_MM, BY_MARKET_MM,
+    E_SHOPPER_MM, SSMART_SHOP_MM, ORIGINAL_MARKET_SHOP_MM
 )
-from scr.data_fetcher import get_sheet_data, save_to_database
+from scr.data_fetcher import get_sheet_data
 from scr.data_writer import write_sheet_data
 from scr.logger import logger
 from scr.parser_mm import scrape_megamarket

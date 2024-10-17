@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import re
 
 # Параметры
-input_file_path = 'mm/Кабинет продавца - Мегамаркета.html'  # Укажите путь к вашему HTML-файлу
-output_excel_path = 'mm/products.xlsx'  # Укажите путь для вывода Excel
+input_file_path = 'Кабинет продавца - Мегамаркета.html'  # Укажите путь к вашему HTML-файлу
+output_excel_path = 'products.xlsx'  # Укажите путь для вывода Excel
 
 # Function to extract data from HTML
 def extract_data(html_content):
