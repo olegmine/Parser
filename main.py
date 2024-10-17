@@ -19,7 +19,7 @@ from scr.update_data_mm import compare_prices_and_create_for_update, update_data
 from scr.update_mm import update_prices_mm
 
 # Глобальная переменная для режима отладки
-DEBUG = True
+DEBUG = False
 
 
 async def process_dataframe(df: pd.DataFrame) -> pd.DataFrame:

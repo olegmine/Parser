@@ -42,7 +42,7 @@ def get_product_offers(url_dict, logger):
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--start-maximized")
     options.add_argument("--disable-extensions")
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     options.add_argument(f"user-agent={get_random_user_agent()}")
 
     logger.info("Инициализация драйвера")
